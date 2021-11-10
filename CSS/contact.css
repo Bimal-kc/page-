@@ -2,45 +2,36 @@
 	border: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	background-color:black;
 	color: white;
+	background-color: black;
 	font-family: 'Times New Roman', Times, serif;
 }
 
+
 .container{
-	width: 100%; 
+	width: 95%; 
 	margin: auto;
 	overflow: hidden;
 }
 
 
+
 /* style for Navigation bar starts here.*/
-
-
-
 #nav ul{
 	list-style: none;
 	float: right;
 	margin-top: 40px;
 }
 
-
-
-
 #nav ul li{
 	display: inline;
 }
-
-
 
 #nav{
 	background-color: black;
 	padding-top: 10px;
 	border-bottom: 2px solid white;
-	overflow: hidden;
 }
-
-
 
 #nav a{
 	text-decoration: none;
@@ -48,29 +39,19 @@
 	color: white;
 	font-size: 40px;
 }
-
-
 #nav a:hover{
 	color: blue;
 }
-
-
-
 #nav a.active{
 	color: #D01C1FFF;
 	font-weight: bold;
 	background-color: #4B878BFF;
 }
-
-
-
 .logo{
 	width: 150px;
 	height: auto;
 	float: left;
 }
-
-
 
 /* style for Navigation bar ends here.*/
 
@@ -136,7 +117,7 @@
 
 #footer{
 	color: white;
-	height: 150px;
+	height: 155px;
 	border: 3px solid white;
 }
 
@@ -145,7 +126,7 @@
 .footer-element{
 	display:flex;
 	justify-content:space-between;
-	height: 145px;
+	height: 150px;
 }
 
 
@@ -179,10 +160,11 @@
 
 
 .media{
-	padding-top:35px;
+	padding-top:20px;
 	width:250px;
 	height: 150px;
-	font-size: 26px;
+	font-size: 30px;
+	text-align: center;
 }
 
 
@@ -197,7 +179,7 @@
 
 
 .media a{
-	font-size: 31px;
+	font-size: 35px;
 	margin: 4px;;
 }
 
@@ -206,14 +188,14 @@
 .media p{
 	
 	padding:0px;
-	padding-left: 55px;
+	padding-left: 30px;
 	margin:0px;
 }
 
 
 .copyright{
 	width:auto;
-	font-size: 26px;
+	font-size: 30px;
 	margin:auto;
 	text-align: center;
 	
@@ -228,9 +210,9 @@
 
 
 .link{
-	padding-top: 40px;
+	padding-top: 30px;
 	width:150px;
-	font-size: 22px;
+	font-size: 26px;
 	
 }
 .link ul{
