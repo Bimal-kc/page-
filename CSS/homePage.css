@@ -1,0 +1,306 @@
+*{
+	border: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color:black;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+	width: 100%; 
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/* style for Navigation bar starts here.*/
+
+
+
+#nav ul{
+	list-style: none;
+	float: right;
+	margin-top: 40px;
+}
+
+
+
+
+#nav ul li{
+	display: inline;
+}
+
+
+
+#nav{
+	background-color: black;
+	padding-top: 10px;
+	border-bottom: 2px solid white;
+	overflow: hidden;
+}
+
+
+
+#nav a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: white;
+	font-size: 40px;
+}
+
+
+#nav a:hover{
+	color: blue;
+}
+
+
+
+#nav a.active{
+	color: #D01C1FFF;
+	font-weight: bold;
+	background-color: #4B878BFF;
+}
+
+
+
+.logo{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+
+
+/* style for Navigation bar ends here.*/
+
+
+
+
+/* style for section1 starts here.*/
+
+
+
+#section1{
+	height: auto;
+}
+
+
+
+.section1-container{
+	display: flex;
+	height: auto;
+}
+
+.introduction1{
+	flex:50%;
+	text-align:center;
+	padding-top: 200px;
+}
+
+
+.section1-container p1{
+	font-size: 45px;
+}
+
+.section1-container p2{
+	font-size: 35px;
+}
+
+
+
+.section1-container h{
+	font-size: 75px;
+}
+
+.image1{
+	flex:50%;
+	height:auto;
+
+}
+
+
+#myImage{
+	width: 400px;
+	height:auto;
+	margin-left: 90px;
+}
+
+
+
+
+/* style for section1 ends here.*/
+
+
+
+
+
+/* style for section2 starts here.*/
+
+
+
+#section2{
+	height: auto;
+	margin-top: 80px;
+}
+
+
+.section2-container{
+	display: flex;
+	height: auto;
+}
+
+
+
+.section2-container p1{
+	font-size: 45px;
+}
+
+
+
+.section2-container p2{
+	font-size: 35px;
+}
+
+
+
+.introductionTopic{
+	flex:50%;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 80px;
+}
+
+
+
+.introduction2{
+	flex:50%;
+	text-align: justify;
+	padding:5px;
+	margin: 80px;
+	margin-top:0px;
+}
+
+.introduction2 a:hover{
+	color: yellowgreen;
+}
+
+/* style for section2 ends here.*/
+
+
+/* style for footer section starts here.*/
+
+
+
+#footer{
+	color: white;
+	height: 150px;
+	border: 3px solid white;
+}
+
+
+
+.footer-element{
+	display:flex;
+	justify-content:space-between;
+	height: 145px;
+}
+
+
+
+
+.footer-element ul{
+	list-style: none;
+}
+
+
+
+
+.footer-element a{
+	text-decoration: none;
+}
+
+
+
+#footer a:hover{
+	color: blue;
+}
+
+
+
+
+#footer i:hover{
+	color: blue;
+}
+
+
+
+
+.media{
+	padding-top:35px;
+	width:250px;
+	height: 150px;
+	font-size: 26px;
+}
+
+
+.media ul{
+	margin:5px;
+}
+
+.media li{
+	display: inline;
+}
+
+
+
+.media a{
+	font-size: 31px;
+	margin: 4px;;
+}
+
+
+
+.media p{
+	
+	padding:0px;
+	padding-left: 55px;
+	margin:0px;
+}
+
+
+.copyright{
+	width:auto;
+	font-size: 26px;
+	margin:auto;
+	text-align: center;
+	
+}
+
+
+
+.copyright p{
+	margin:auto;
+}
+
+
+
+.link{
+	padding-top: 40px;
+	width:150px;
+	font-size: 22px;
+	
+}
+.link ul{
+	margin: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+
+/* style for footer ends here.*/
+
+#scroll a:hover{
+	color: purple;          /*This will set the color to purple wile hovering over scroll button*/
+}

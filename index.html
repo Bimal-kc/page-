@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<!--head section of my homepage's html starts here-->
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="Description"  content="This is HomePage of my portfolio"/>
+		<meta name="author"  content="Bimal Khatri"/>
+		<title>Home page </title>
+		<link rel="stylesheet" href="CSS/homePage.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<script src="JavaScript/home.js"> </script>
+		<script src="JavaScript/photos.js"> </script>
+		<style>
+			#scroll{ font-size:25px;                
+				 font-weight:bold;
+				 border-bottom:3px solid blue;
+				 cursor:pointer;
+				 }
+		</style>  
+
+		<script>     
+			function scrollPage() {                       
+ 			 document.body.scrollBy(0, 420);               
+			 document.documentElement.scrollBy(0, 420);    
+			 }
+		</script>
+	</head>
+
+
+
+<!--head section of my homepage's html ends here-->
+
+
+<!--body section of my homepage's html starts here-->
+
+	<body>
+		<!--nav section of my homepage's html starts here-->
+
+		<nav id="nav">
+			<div class="container">
+				<a href="index.html"><img src="image/logo.png" alt="logo showing BirB" class="logo"/></a>
+				<ul>
+					<li><a href="index.html" class="active"> Home </a></li>
+					<li><a href="contact.html"> Contact </a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--nav section of my homepage's html ends here-->
+		
+		<!--section1 of my homepage's html starts here-->		
+		
+		<section id="section1">
+			<div class="container">
+				<div class="section1-container">
+					<div class="introduction1">
+						<p1>Hello, I am </p1><br>
+						<h>Bimal</h><br>
+						<p2 >And I Welcome you to my website.</p2><br><br>
+						<button onclick="scrollPage()" id="scroll"><a> Scroll for more</a></button>
+					</div>
+					<div class="image1">
+						<img src="image/me.jpg" alt=" me folding my hand" id="myImage">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--section1 of my homepage's html ends here-->
+
+		<!--section2 of my homepage's html starts here-->
+
+		<section id="section2">
+			<div class="container">
+				<div class="section2-container">
+					<div class="introductionTopic">
+						<p1>About me:</p1>
+					</div>
+					<div class="introduction2">
+						<p2>I am currently a student of<a href="https://en.wikipedia.org/wiki/Bachelor_of_Information_Technology" target="_blank" style="text-decoration: none;"> BIT </a>at <a href= "https://icp.edu.np/" target = "_blank" style="text-decoration: none;">Informatics college pokhara</a>. I am not an extraordinary student but believes in working hard. Besides, this I like sketching, cycling, swimming, photography, travelling and discovering new things.</p2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--section2 of my homepage's html ends here-->
+
+		<!--footer of my homepage's html starts here-->
+
+
+		<footer id="footer">
+			<div class="container">
+				<div class="footer-element">
+					<div class="media">
+						<p> Get in touch</p>
+						<ul>
+							<li><a href="https://www.facebook.com/bimal.kshetri.3111/" target="_blank"> <i class="bi bi-facebook"></i> </a></li>
+							<li><a href="https://www.instagram.com/bb._.g.o.d/" target="_blank"> <i class="bi bi-instagram"></i> </a></li>
+							<li><a href="https://www.linkedin.com/in/bimal-kc-993707216" target= "_blank"> <i class= "bi bi-linkedin"></i> </a></li>
+							<li><a href="https://github.com/Bimal-kc" target= "_blank"> <i class= "bi bi-github"></i> </a></li>
+							<li><a href="https://twitter.com/bimalkh80249679" target="_blank"> <i class="bi bi-twitter"></i> </a></li>
+						</ul>
+					</div>
+
+					<div class="copyright">
+						<h>Bimal khatri<h>
+						<p>Copyright &copy; 2021 Bimal khatri - All right reserved<p>
+					</div>
+
+
+					<div class="link">
+						<ul>
+							<li><a href="index.html"> Home </a></li>
+							<li><a href="contact.html"> Contact </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--footer of my home page's html ends here-->
+		
+
+	</body>
+
+<!--body section of my home page's html ends here-->
+
+</html>
