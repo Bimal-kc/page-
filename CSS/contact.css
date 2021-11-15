@@ -2,36 +2,45 @@
 	border: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	background-color:black;
 	color: white;
-	background-color: black;
 	font-family: 'Times New Roman', Times, serif;
 }
 
-
 .container{
-	width: 95%; 
+	width: 100%; 
 	margin: auto;
 	overflow: hidden;
 }
 
 
-
 /* style for Navigation bar starts here.*/
+
+
+
 #nav ul{
 	list-style: none;
 	float: right;
 	margin-top: 40px;
 }
 
+
+
+
 #nav ul li{
 	display: inline;
 }
+
+
 
 #nav{
 	background-color: black;
 	padding-top: 10px;
 	border-bottom: 2px solid white;
+	overflow: hidden;
 }
+
+
 
 #nav a{
 	text-decoration: none;
@@ -39,19 +48,28 @@
 	color: white;
 	font-size: 40px;
 }
+
+
 #nav a:hover{
 	color: blue;
 }
+
+
+
 #nav a.active{
 	color: #D01C1FFF;
 	font-weight: bold;
 	background-color: #4B878BFF;
 }
+
+
+
 .logo{
 	width: 150px;
 	height: auto;
 	float: left;
 }
+
 
 /* style for Navigation bar ends here.*/
 
