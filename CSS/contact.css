@@ -117,7 +117,7 @@
 
 #footer{
 	color: white;
-	height: 155px;
+	height: 150px;
 	border: 3px solid white;
 }
 
@@ -126,7 +126,7 @@
 .footer-element{
 	display:flex;
 	justify-content:space-between;
-	height: 150px;
+	height: 145px;
 }
 
 
@@ -160,11 +160,10 @@
 
 
 .media{
-	padding-top:20px;
+	padding-top:35px;
 	width:250px;
 	height: 150px;
-	font-size: 30px;
-	text-align: center;
+	font-size: 26px;
 }
 
 
@@ -179,7 +178,7 @@
 
 
 .media a{
-	font-size: 35px;
+	font-size: 31px;
 	margin: 4px;;
 }
 
@@ -188,14 +187,14 @@
 .media p{
 	
 	padding:0px;
-	padding-left: 30px;
+	padding-left: 55px;
 	margin:0px;
 }
 
 
 .copyright{
 	width:auto;
-	font-size: 30px;
+	font-size: 26px;
 	margin:auto;
 	text-align: center;
 	
@@ -210,9 +209,9 @@
 
 
 .link{
-	padding-top: 30px;
-	width:150px;
-	font-size: 26px;
+	padding-top: 40px;
+	width:100px;
+	font-size: 22px;
 	
 }
 .link ul{
@@ -220,7 +219,5 @@
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
-
-
 
 /* style for footer ends here.*/
